@@ -1,10 +1,16 @@
 {
-    "Name": "untitled",
-    "Description": "blank file",
-    "Children": [
+    "Name": "master-untitled",
+    "Type": "Master",
+    "Branch": "16.2",
+    "Products": "wpf",
+    "Localizable": true,
+    "Root": [
       {
-          "Name": "",
-          "Description": "",
-          "Children": []
+          "Flags": "",
+          "Guid": "",
+          "Link": "",
+          "TitleEN": "",
+          "TitleJP": "",
+          "Nodes": []
 	  }]
 }

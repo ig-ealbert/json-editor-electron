@@ -3,7 +3,7 @@
 // Show an open file dialog, select a file, and load it into the editor
 function openFile(){
   dialog.showOpenDialog(
-    {filters: [{ name: 'json', extensions: ['json'] }]},
+    {filters: [{ name: 'toc', extensions: ['toc'] }]},
 	function (fileName) {
     if (fileName !== undefined)
 	{
@@ -36,7 +36,7 @@ function saveFile() {
   if (openFileName == "")
   {
 	dialog.showSaveDialog(
-	  {filters: [{ name: 'json', extensions: ['json'] }]},
+	  {filters: [{ name: 'toc', extensions: ['toc'] }]},
 	  function (fileName) {
       if (fileName !== undefined)
 	  {
