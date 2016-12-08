@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>JSON Editor with Electron</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	
+	<!-- JSONEditor -->
+	<link href="node_modules/jsoneditor/dist/jsoneditor.min.css" rel="stylesheet" type="text/css">
+    <script src="node_modules/jsoneditor/dist/jsoneditor.min.js"></script>	
+  </head>
+  <body>
+    <div class="container">
+		<div class="topMenu">
+			<ul>
+				<li><button id="btnNewFile" title="New"><img src="icons/New32.png" /></button></li>
+				<li><button id="btnOpenFile" title="Open"><img src="icons/Open32.png" /></button></li>
+				<li><button id="btnSaveFile" title="Save"><img src="icons/Save32.png" /></button></li>
+			</ul>
+		</div>
+		<div id="jsonEditor"></div>
+	</div>
+	
+	<!-- Include other .js files -->
+	<script src="./initialization.js"></script>
+	<script src="./buttons.js"></script>
+  </body>
+
+</html>

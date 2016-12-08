@@ -1,0 +1,23 @@
+{
+  "name": "json-editor-electron",
+  "version": "1.0.0",
+  "description": "Create, open, edit, and save local JSON files in a GUI.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/ig-ealbert/json-editor-electron",
+  "keywords": [
+    "Electron",
+    "JSON",
+    "edit",
+	"editor",
+    "tree"
+  ],
+  "author": "ig-ealbert",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "electron": "^1.4.1",
+    "jsoneditor": "^5.5.10"
+  }
+}
